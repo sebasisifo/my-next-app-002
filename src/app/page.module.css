@@ -7,6 +7,69 @@
   min-height: 100vh;
 }
 
+
+.container {
+  background-color: #0192d3;
+  color: white;
+  padding: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.recordButton{
+  background-color: #d34a01;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: cursor;
+}
+
+.stopButton {
+  background-color: navy;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: cursor;
+}
+
+.recordButton:disabled {
+  background-color: #d34a01;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: not-allowed;
+}
+
+.stopButton:disabled {
+  background-color: navy;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: not-allowed;
+}
+
+.deployLink {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+
+
+
+
+
 .description {
   display: inherit;
   justify-content: inherit;
@@ -227,3 +290,5 @@
     transform: rotate(0deg);
   }
 }
+
+

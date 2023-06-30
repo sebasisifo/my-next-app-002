@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Pasos para el GIT
+git init
+git add .
+git commit -m "Version con el nombre que explique el cambio"
+git push origin main
+
+
 ## Getting Started
 
 First, run the development server:
